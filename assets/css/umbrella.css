@@ -50,10 +50,14 @@
   Bootstrap
 
  -------------------------------------------------------------------*/
-.email {font-color:#ffe100; 
+ 
+ /* Overwrites */
+.email {color:#ffe100 !important;}
+.email:hover {color: white !important;}
 
-
-
+ /* Logo colour changer */
+a svg:hover #logo { 
+  fill: #ffe100;
 }
 
 .row > [class*='col-'] {
